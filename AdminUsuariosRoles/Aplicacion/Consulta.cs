@@ -52,6 +52,7 @@ namespace AdminUsuariosRoles.Aplicacion
                     UsuarioId = usuario.ModUsuarioId,
                     Usuario=usuario.Usuario,
                     Correo=usuario.Correo,
+                    Contraseña=usuario.Contraseña,
                     SucursalId=usuario.SucursalId,
                     ListaRoles = listaUsuarioRolDto
                 };
